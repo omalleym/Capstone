@@ -5,7 +5,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <table align="center" style="width:300px">
 <tr>
-  <td> What type of Model do you think this will be? Explain.</td>
+  <td> 
+      <asp:GridView ID="GridView1" runat="server">
+      </asp:GridView>
+      What do you think the graph will look like of this situation?.</td>
   
 </tr>
 <tr>
@@ -19,9 +22,10 @@
 </tr>
 <tr>
   <td>
-      <asp:Button ID="Button1"  PostBackUrl="Question2.aspx" runat="server" Text="Next" />
+      <asp:Button ID="Button1"   runat="server" Text="Next" OnClick="Button1_Click" />
     </td>
 </tr>
 </table>
+<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
 </asp:Content>
 

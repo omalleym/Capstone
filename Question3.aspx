@@ -5,17 +5,12 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <table align="center" style="width:300px">
 <tr>
-  <td> How many are infected at day = 3?</td>
+  <td> If you saw the graph to the right, what do you think the next coordinate point will be?</td>
   
 </tr>
 <tr>
   <td>
-      <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-          <asp:ListItem>0</asp:ListItem>
-          <asp:ListItem>1</asp:ListItem>
-          <asp:ListItem>2</asp:ListItem>
-          <asp:ListItem>3</asp:ListItem>
-      </asp:RadioButtonList>
+      <asp:TextBox ID="TextBox1" runat="server" Height="69px" Width="164px"></asp:TextBox>
     </td>
     <td>
         <asp:Image ID="Image1" runat="server" Height="36px" Width="61px" />

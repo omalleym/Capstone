@@ -6,16 +6,16 @@
 
 <table align="center" style="width:300px">
 <tr>
-  <td> How many are infected at day = 0?</td>
+  <td> What would the first coordinate point on the map be?</td>
   
 </tr>
 <tr>
   <td>
       <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-          <asp:ListItem>0</asp:ListItem>
-          <asp:ListItem>1</asp:ListItem>
-          <asp:ListItem>2</asp:ListItem>
-          <asp:ListItem>3</asp:ListItem>
+          <asp:ListItem>(0,0)</asp:ListItem>
+          <asp:ListItem>(0,1)</asp:ListItem>
+          <asp:ListItem>(0,2)</asp:ListItem>
+          <asp:ListItem>(2,0)</asp:ListItem>
       </asp:RadioButtonList>
     </td>
     <td>

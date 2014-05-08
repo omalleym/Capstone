@@ -9,7 +9,7 @@
   <td>Mr. O bout a cow farm on Amazon during a flash sale that is fully stocked with food and water but forgot about it.
      One of the cows has mad cow disease and it is spreading between each cow.
     
- In each day, a cow can infect two other cows on the 10,000 cow farm.:</td>
+ In each day, a cow can infect one other cow on the 100 cow farm.</td>
   
 </tr>
 <tr>

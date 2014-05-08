@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <table align="center" style="width:300px">
 <tr>
-  <td> Do you think Mr.O would have made a good cow farmer? Why or why not?</td>
+  <td> If we had 1000 cows, how do you think the spread of the disease would be the same or different? Explain</td>
   
 </tr>
 
@@ -20,7 +20,7 @@
 </tr>
 <tr>
   <td>
-      <asp:Button ID="Button1"  PostBackUrl="ThankYou.aspx" runat="server" Text="Next" />
+      <asp:Button ID="Button1"  PostBackUrl="Question11.aspx" runat="server" Text="Next" />
     </td>
 </tr>
         </table>

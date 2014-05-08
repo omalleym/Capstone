@@ -11,7 +11,13 @@
 <body style="background-color:gray;"">
     <form id="form1" runat="server">
     <div>
-        
+        <table align="center" style="width:300px">
+        <tr>
+          <td> Question 
+              <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            </td>
+        </tr>
+         </table>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">       
         </asp:ContentPlaceHolder>
     </div>

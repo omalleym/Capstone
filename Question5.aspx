@@ -6,13 +6,10 @@
 
     <table align="center" style="width:300px">
 <tr>
-  <td> Using your calculator with the equation given, when will the greatest rate of infection occur? Explain</td>
+  <td> The next coordinate point actually looks like the graph on the right. Was your estimate right or wrong? Why?</td>
   
 </tr>
 <tr>
-  <td>
-      Equation: X * X + 2
-    </td>
 
   
 </tr>

@@ -6,7 +6,7 @@
 
     <table align="center" style="width:300px">
 <tr>
-  <td> Why is not every cow infected? Explain. </td>
+  <td> Why is the disease spreading the fastest at that moment? (use the graph on the right for referance) </td>
   
 </tr>
 

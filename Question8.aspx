@@ -6,17 +6,12 @@
 
     <table align="center" style="width:300px">
 <tr>
-  <td>What is the name of the model?</td>
+  <td>When is the disease spreading the fastest?</td>
   
 </tr>
 <tr>
   <td>
-      <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-          <asp:ListItem>Quadratic</asp:ListItem>
-          <asp:ListItem>Exponetial</asp:ListItem>
-          <asp:ListItem>Logistic</asp:ListItem>
-          <asp:ListItem>Logarithmic</asp:ListItem>
-      </asp:RadioButtonList>
+      <asp:TextBox ID="TextBox1" runat="server" Height="61px" Width="157px"></asp:TextBox>
     </td>
   
 </tr>
