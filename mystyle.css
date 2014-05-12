@@ -1,0 +1,149 @@
+   body
+    {
+        margin: 30px;
+        font-family: "Georgia", serif;
+        line-height: 2.5em;
+    }
+
+    /* Main content area */
+    #content
+    {
+        margin: 80px 70px;
+        text-align: center;
+    }
+
+    /* Container left and right columns */
+    #graphColumnLeft
+    {
+        margin-left: 10px;
+        height: 500px;
+        width: 175px;
+    }
+
+    #graphColumnRight
+    {
+        margin-left: 10px;
+        height: 500px;
+        width: 135px;
+    }
+
+    /* Containers for first graphRow */
+    #graphRow1
+    {
+        margin: 20px auto 0 auto;
+        width: 625px;
+        height: 25px;
+    }
+
+    /* Containers for additional graphRows */
+    #graphRow2, #graphRow3, #graphRow4, #graphRow5, #graphRow6,
+    #graphRow7, #graphRow8, #graphRow9, #graphRow10, #graphRow11, #graphRow12,
+    #graphRow13, #graphRow14, #graphRow15, #graphRow16, #graphRow17, #graphRow18,
+    #graphRow19, #graphRow20, #graphRow21
+    {
+        margin: 0 auto 0 auto;
+        width: 625px;
+        height: 25px;
+    }
+
+    /* Container for axis graphics */
+    #xaxis
+    {
+        margin: 0 auto 0 auto;
+        width: 625px;
+        height: 20px;
+        background-image: url("xaxis.jpg");
+    }
+
+    #yaxis
+    {
+        margin: 0 auto 0 auto;
+        width: 25px;
+        height: 525px;
+        background-image: url("yaxis.jpg");
+    }
+
+    /* The area containing the set of graph points */
+    #graphPoints1, #graphPoints5, #graphPoints9,
+    #graphPoints16, #graphPoints19
+    {
+        width: 10px;
+        height: 20px;
+        padding: 2px;
+        margin: 0 auto;
+    }
+
+    #graphPoints2
+    {
+        width: 35px;
+        height: 20px;
+        padding: 2px;
+        margin: 0 auto;
+    }
+
+    #graphPoints3
+    {
+        width: 40px;
+        height: 20px;
+        padding: 2px;
+        margin: 0 auto;
+    }
+
+    #graphPoints13, #graphPoints20
+    {
+        width: 40px;
+        height: 20px;
+        padding: 2px;
+        margin: 0 auto;
+    }
+
+    #graphPoints21
+    {
+        width: 70px;
+        height: 20px;
+        margin: 0 auto;
+    }
+
+    /* Sets the alignment for first element of points or each row*/
+    #graphRow1 div:first-child, #graphRow2 div:first-child
+    {
+        margin: 0 auto;
+    }
+
+    #graphPoints1 div:first-child, #graphPoints2 div:first-child, #graphPoints3 div:first-child,
+    #graphPoints5 div:first-child, #graphPoints9 div:first-child, #graphPoints13 div:first-child,
+    #graphPoints16 div:first-child, #graphPoints19 div:first-child, #graphPoints20 div:first-child,
+    #graphPoints21 div:first-child
+    {
+        margin-left: 0;
+    }
+
+    /* Individual points and grid locations */
+    #graphPoints1 div, #graphPoints2 div, #graphPoints3 div, #graphPoints5 div, #graphPoints9 div,
+    #graphPoints13 div, #graphPoints16 div, #graphPoints19 div, #graphPoints20 div,
+    #graphPoints21 div
+    {
+        float: left;
+        width: 10px;
+        height: 10px;
+        border: 1px solid #333;
+        border-radius: 50%;
+        margin: 0 0 25px 10px;
+    }
+
+    #graphRow1 div, #graphRow2 div, #graphRow3 div, #graphRow4 div, #graphRow5 div, #graphRow6 div,
+    #graphRow7 div, #graphRow8 div, #graphRow9 div, #graphRow10 div, #graphRow11 div, #graphRow12 div,
+    #graphRow13 div, #graphRow14 div, #graphRow15 div, #graphRow16 div, #graphRow17 div, #graphRow18 div,
+    #graphRow19 div, #graphRow20 div, #graphRow21 div
+    {
+        float: left;
+        width: 25px;
+        height: 25px;
+        background-image: url("graphbackground.jpg");
+    }
+
+    /* Set the color of correct points */
+    #point1.correct, #point2.correct, #point3.correct, #point4.correct, #point5.correct, #point6.correct
+    {
+        background: blue;
+    }
