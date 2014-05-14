@@ -1,0 +1,134 @@
+﻿#body
+{
+    color: #ff0000;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 100%;
+	background: #fff;
+}
+
+#header
+{
+	/*background-image:url("http://i.imgur.com/w7O8Qqs.png");*/
+    /*background-image:url(http://i.imgur.com/ZF3CWne.png);*/
+    /*background-image:url(http://i.imgur.com/S58CIn1.png);*/
+    background-image:url(http://i.imgur.com/W1aCie4.png);
+    height: 100px;
+	padding: 20px;
+  
+}
+
+#header h1 { margin: 0; color: white; font-size: xx-large; }
+
+#navigation
+{
+	float: left;
+	width: 100%;
+	background: black;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+
+#content-container1
+{
+	float: left;
+	width: 100%;
+	background: #fff url(/wp-content/uploads/layout-three-liquid-background1.gif) repeat-y 20% 0;
+}
+
+#content-container2
+{
+	float: left;
+	width: 100%;
+	background: url(/wp-content/uploads/layout-three-liquid-background2.gif) repeat-y 80% 0;
+}
+
+#section-navigation
+{
+	float: left;
+	width: 16%;
+	padding: 20px 0;
+	margin: 0 2%;
+	display: inline;
+   background-color: white;
+}
+
+#section-navigation ul
+{
+	margin: 0;
+	padding: 0;
+     background-color: black;
+
+
+}
+
+#section-navigation ul li
+{
+	margin: 0 0 1em;
+	padding: 0;
+	list-style-type: none;
+     background-color: black;
+
+}
+
+#content
+{
+	float: left;
+	width: 56%;
+	padding: 20px 0;
+	margin: 0 0 0 2%;
+    height: 300px;
+}
+
+#content h2 { margin: 0; }
+
+#aside
+{
+	float: left;
+	width: 16%;
+	padding: 20px 0;
+	margin: 0 2% 0 0;
+	display: inline;
+    background-color: white;
+    height: 300px;
+
+   
+}
+
+#aside h3 { margin: 0; }
+
+#footer
+{
+	clear: both;
+	background: red;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+    background-image: url(http://i.imgur.com/H5lrvcd.png);
+    height: 300px;
+}

@@ -6,7 +6,7 @@
     }
 
     /* Main content area */
-    #content
+    #contentBernie
     {
         margin: 80px 70px;
         text-align: center;
@@ -147,3 +147,4 @@
     {
         background: blue;
     }
+

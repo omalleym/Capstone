@@ -11,4 +11,9 @@ public partial class Question4 : System.Web.UI.Page
     {
 
     }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Session["Q4"] = TextBox1.Text;
+        Server.Transfer("Question5.aspx");
+    }
 }
