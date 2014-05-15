@@ -6,7 +6,7 @@
     }
 
     /* Main content area */
-    #contentBernie
+    #content
     {
         margin: 80px 70px;
         text-align: center;
@@ -64,8 +64,8 @@
     }
 
     /* The area containing the set of graph points */
-    #graphPoints1, #graphPoints5, #graphPoints9,
-    #graphPoints16, #graphPoints19
+    #graphPoints1, #graphPoints3, #graphPoints5, #graphPoints9, #graphPoints13
+    #graphPoints16, #graphPoints19, #graphPoints20
     {
         width: 10px;
         height: 20px;
@@ -81,25 +81,9 @@
         margin: 0 auto;
     }
 
-    #graphPoints3
-    {
-        width: 40px;
-        height: 20px;
-        padding: 2px;
-        margin: 0 auto;
-    }
-
-    #graphPoints13, #graphPoints20
-    {
-        width: 40px;
-        height: 20px;
-        padding: 2px;
-        margin: 0 auto;
-    }
-
     #graphPoints21
     {
-        width: 70px;
+        width: 80px;
         height: 20px;
         margin: 0 auto;
     }
@@ -147,4 +131,3 @@
     {
         background: blue;
     }
-
