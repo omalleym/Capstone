@@ -34,10 +34,6 @@
   
 </tr>
 <tr>
-
-  
-</tr>
-<tr>
   <td>
       
       <asp:TextBox ID="TextBox1" TextMode ="MultiLine" runat="server" Height="70px" Width="173px"></asp:TextBox>
@@ -51,6 +47,12 @@
       <asp:Button ID="Button1" OnClick="Button1_Click"  runat="server" Text="Next" />
     </td>
 </tr>
+<tr>
+  <td>
+      <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Please enter an answer" ForeColor="Red"></asp:RequiredFieldValidator>
+    </td>
+</tr>
+
         </table>
 
 

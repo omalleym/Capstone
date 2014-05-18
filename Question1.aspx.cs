@@ -9,6 +9,8 @@ public partial class Question1 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        //MEO 05/17/14 adding this in for the validator to remove errors.
+        Page.UnobtrusiveValidationMode = System.Web.UI.UnobtrusiveValidationMode.None;
         //load the data from linq into here.
         //using (MathLabEntities context = new MathLabEntities())
         //{

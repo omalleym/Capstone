@@ -10,6 +10,7 @@ public partial class ThankYou : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        Page.UnobtrusiveValidationMode = System.Web.UI.UnobtrusiveValidationMode.None;
         string results = Session["Student_Name"].ToString() + " | Period " + Session["Student_Period"].ToString()
         + " | Q1: " + Session["Q1"]
         + " | Q2: " + Session["Q2"]

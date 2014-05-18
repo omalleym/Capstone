@@ -50,16 +50,13 @@
     </td>
 </tr>
 </table> 
-   
-
-
-
-
-
+			    
+			    <table align="center" style="width:300px">
+                    <td><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Please enter your full name into the log in." ForeColor="Red"></asp:RequiredFieldValidator></td>
+                    
+                </table>
+                    
                 
-        
-    
-
 			</div>
 			<div id="aside">
                 <img src="http://www.quia.com/files/quia/users/magistra08/twelve/fundus.jpg" />

@@ -39,13 +39,19 @@
       <asp:TextBox ID="TextBox1" TextMode ="MultiLine" runat="server" Height="69px" Width="164px"></asp:TextBox>
     </td>
     <td>
-        <asp:Image ID="Image1" runat="server" Height="36px" Width="61px" />
+        <asp:Image ID="Image1" imageurl="~/question3.PNG" runat="server" Height="36px" Width="61px" />
     </td>
   
 </tr>
 <tr>
   <td>
       <asp:Button ID="Button1" OnClick="Button1_Click" runat="server" Text="Next" />
+    </td>
+</tr>
+
+        <tr>
+  <td>
+      <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Please enter an answer." ForeColor="Red"></asp:RequiredFieldValidator>
     </td>
 </tr>
 

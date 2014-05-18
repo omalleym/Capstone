@@ -36,7 +36,7 @@
 
 <table align="center" style="width:300px">
 <tr>
-  <td>(2.) What would the first coordinate point on the map be?</td>
+  <td>(2.) What would the first coordinate point on the graph be?</td>
   
 </tr>
 <tr>
@@ -58,6 +58,11 @@
       <asp:Button ID="Button1" OnClick="Button1_Click" runat="server" Text="Next" />
     </td>
 </tr>
+    <tr>
+        <td>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="RadioButtonList1" ErrorMessage="Please select an answer." ForeColor="Red"></asp:RequiredFieldValidator>
+        </td>
+    </tr>
 </table>
 
 

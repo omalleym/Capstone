@@ -48,6 +48,10 @@
       <asp:Button ID="Button1"   runat="server" Text="Next" OnClick="Button1_Click" />
     </td>
 </tr>
+<tr>
+   <td><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Please enter your answer into the text box." ForeColor="Red"></asp:RequiredFieldValidator></td>
+    
+</tr>
 </table>
 
 
